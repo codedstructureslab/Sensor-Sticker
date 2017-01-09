@@ -1,0 +1,49 @@
+# Copyright (c) 2014-2015 Arduino LLC.  All right reserved.
+#
+# This package for the Atmel SAM D21E/R21E was derrived from the
+# Arduino Zero board package, and made by A. Albino <aalbino@femtoduino.com>
+# Please note, it includes my modified version of Atmel's samr21 header/source files 
+# to fix some bugs in the original implementation of USB and CMSIS headers
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+# Sensor-Sticker V1 (Atmel ATSAMD21E18A) Native USB
+# ---------------------------------------
+sensorstickerv1.name=Sensor-Sticker V1 (Atmel ATSAMD21E18A) Native USB
+sensorstickerv1.vid.0=0x03eb
+sensorstickerv1.pid.0=0x6124
+
+sensorstickerv1.upload.tool=arduino:bossac
+sensorstickerv1.upload.protocol=sam-ba
+sensorstickerv1.upload.maximum_size=262144
+sensorstickerv1.upload.use_1200bps_touch=true
+sensorstickerv1.upload.wait_for_upload_port=true
+sensorstickerv1.upload.native_usb=true
+sensorstickerv1.build.mcu=cortex-m0plus
+sensorstickerv1.build.f_cpu=48000000L
+sensorstickerv1.build.usb_product="Atmel ATSAMD21E18A"
+sensorstickerv1.build.usb_manufacturer="Atmel"
+sensorstickerv1.build.board=SAMD_ZERO
+sensorstickerv1.build.core=arduino_osc32k
+sensorstickerv1.build.extra_flags=-D__SAMD21E18A__ {build.usb_flags}
+sensorstickerv1.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+sensorstickerv1.build.openocdscript=openocd_scripts/atsamd21e18a.cfg
+sensorstickerv1.build.variant=atsamd21e18a
+sensorstickerv1.build.variant_system_lib=
+sensorstickerv1.build.vid=0x03eb
+sensorstickerv1.build.pid=0x6124
+sensorstickerv1.bootloader.tool=openocd
+sensorstickerv1.bootloader.file=zero/samd21_sam_ba.bin
+

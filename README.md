@@ -5,8 +5,10 @@ Minimal hardware for distributed sensing in aircraft, etc.
 ## Version
 
 **Version 0:** 
- * Minimal sensor size, irregular boards
- * Ordered 2016-12-30
+* Minimal sensor size, irregular boards
+* Ordered 2016-12-30
 
 **Version 1:** 
- * Constant sensor button size
+* Constant sensor button size
+* (TODO) Ensure that distance between connector edge and sensor centerpoint is 1.7 mm
+* (TODO) Redo jtag pinout for Atmel ICE programmer

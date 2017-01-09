@@ -1,0 +1,57 @@
+{
+  "packages": [
+    {
+      "name": "femtoio-beta",
+      "maintainer": "FemtoIO Betatesting",
+      "websiteURL": "https://github.com/femtoio",
+      "email": "support@femtoduino.com",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms": [
+        {
+          "name": "Atmel ATSAMD21E18A core - Hourly build",
+          "architecture": "samd",
+          "version": "%%VERSION%%",
+          "category": "Arduino",
+          "url": "http://downloads.femtoduino.com/%%FILENAME%%",
+          "archiveFileName": "%%FILENAME%%",
+          "checksum": "SHA-256:%%CHECKSUM%%",
+          "size": "%%SIZE%%",
+          "boards": [
+            {
+              "name": "Atmel ATSAMD21E18A"
+            },
+            {
+              "name": "Atmel ATSAMR21E18A"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
