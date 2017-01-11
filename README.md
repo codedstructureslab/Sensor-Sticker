@@ -12,3 +12,7 @@ Minimal hardware for distributed sensing in aircraft, etc.
 * Constant sensor button size
 * (TODO) Ensure that distance between connector edge and sensor centerpoint is 1.7 mm
 * (TODO) Redo jtag pinout for Atmel ICE programmer
+* Redo DSP310 Pinout to make assembly clearer
+
+**Version 2:**
+* ATSAMD11 Output?
