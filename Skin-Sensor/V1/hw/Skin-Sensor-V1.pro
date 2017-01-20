@@ -1,6 +1,6 @@
-update=Wednesday, January 04, 2017 'PMt' 02:48:50 PM
+update=Tuesday, January 17, 2017 'PMt' 04:45:29 PM
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -27,9 +27,19 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../../CSL-Part-Library/KICAD/Components
+LibDir=/Users/dcellucci/github/CSL-Part-Library/KICAD/Components
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,9 +70,9 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/dcellucci/github/CSL-Part-Library/KICAD/Components/Fab
-LibName31=/Users/dcellucci/github/CSL-Part-Library/KICAD/Components/CSL_uP
-LibName32=/Users/dcellucci/github/CSL-Part-Library/KICAD/Components/CSL_Sensors
-LibName33=/Users/dcellucci/github/CSL-Part-Library/KICAD/Components/CSL_Power
-LibName34=/Users/dcellucci/github/CSL-Part-Library/KICAD/Components/CSL_Conn
-LibName35=/Users/dcellucci/github/CSL-Part-Library/KICAD/Components/CSL_Opto
+LibName30=CSL_uP
+LibName31=CSL_Sensors
+LibName32=CSL_Opto
+LibName33=CSL_Conn
+LibName34=CSL_Power
+LibName35=Fab
